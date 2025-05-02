@@ -79,23 +79,26 @@ y_test = scalar_y.inverse_transform(y_test)
 mse = mean_squared_error(y_test,predict_inverse)
 print("Mean Square Error: {:.3f}".format(mse))
 ```
-```
-# Optional, print some predictions
-print("Prediction:\n",predict_inverse[:5])
-```
-
-
-
-
-
-
-
 
 
 
 
 ## Output:
-![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
+### DATASET
+![Screenshot 2025-05-02 201924](https://github.com/user-attachments/assets/2de04c07-b15f-4927-a322-e067c3410fe0)
+
+### X Value
+![Screenshot 2025-05-02 201930](https://github.com/user-attachments/assets/93eb837d-432c-4910-8e0c-eb93cc04eebf)
+
+### Y Value
+![Screenshot 2025-05-02 201936](https://github.com/user-attachments/assets/225b973f-c0aa-449a-8cc3-0fce21c8d22b)
+
+### Predicted Value
+![Screenshot 2025-05-02 201944](https://github.com/user-attachments/assets/69675133-6f70-44d5-9340-6f45ff087351)
+
+### Mean Square Error
+![Screenshot 2025-05-02 201951](https://github.com/user-attachments/assets/96ef5a7f-167a-4aeb-9c17-2641e577f585)
+
 
 
 ## Result:
